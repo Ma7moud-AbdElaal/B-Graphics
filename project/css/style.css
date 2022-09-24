@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #3C4F55;
+}
+
+main {
+    width: 960px;
+    height: auto;
+    margin: 0px auto;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+}
+
+header img {
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+nav {
+    width: 940px;
+    height: 48px;
+    background-image: url(../img/nav-bg.png);
+    margin: 0px 10px;
+    border: double 2px #536A71;
+}
+
+.main-nav {
+    list-style: none;
+
+}
+
+.main-nav li {
+    float: left;
+
+}
+
+.main-nav li a {
+    display: block;
+    width: 116px;
+    height: 48px;
+    color: #6B8890;
+    text-align: center;
+    border-right: solid 1px #3B484E;
+    line-height: 48px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav li a:hover {
+    color: white;
+}
+
+.slide img {
+    width: 955px;
+    margin: 5px 5px 5px 0px;
+}
+
+.services {
+    width: 940px;
+    height: 270px;
+    margin: 0px 0px 0px 12px;
+    display: flex;
+    background: linear-gradient(#223f47, #3C4F55);
+}
+
+.left-side {
+    width: 470px;
+    height: 270px;
+    position: relative;
+}
+
+
+ h3 {
+    color: #B5DF11;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+p {
+    color: white;
+    padding-right: 10px;
+}
+
+.p1 {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.left-side .p2 {
+    position: absolute;
+    left: 30px;
+    top: 180px;
+}
+
+.left-side img {
+    position: absolute;
+    right: 0px; top: 25px;
+}
+
+.right-side {
+    width: 470px;
+    height: 270px;
+    position: relative;
+}
+.right-side p {
+    position: absolute;
+    left: 30px; top: 60px;
+    width: 240px;
+}
+
+.right-side ul {
+    position: absolute;
+    left: 60px; top: 140px;
+    color: white;
+    line-height: 25px;
+    list-style-image: url(../img/check1.png);
+}
+
+.img1{
+    position: absolute;
+    right: -14px; top: 10px;
+}
+
+.img2{
+    position: absolute;
+    right: 15px; top: 60px;
+}
+
+
+.bg{
+    background-image: url(../img/H-Separator.png);
+    width: 699px;
+    height: 2px;
+    margin: 5px auto;
+}
+
+.offer {
+    width: 940px;
+    height: 200px;
+    margin: 0px 0px 0px 12px;
+    position: relative;
+    background: linear-gradient( #3C4F55 , #223f47);
+}
+
+.img3{
+    position: absolute;
+    right: 15px; top: 140px;
+}
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    color: white;
+
+}
+
+.footer-nav li{
+    padding: 0px 10px;
+    border-right: white solid 1px;
+
+}
+
+footer span{
+    color: #B5DF11;
+    font-weight: bold;
+
+    
+}
